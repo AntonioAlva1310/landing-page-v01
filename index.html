@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicios de nutrición</title>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- mis importaciones -->
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+
+
+</head>
+
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Header y Menú -->
+    <header>
+        <div class="menu-container">
+            <div class="logo-container">
+                <img class="logo" src="logof2.png" alt="logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Booking </a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 400) {
+                    $('div.menu-container').addClass('red');
+                } else {
+                    $('div.menu-container').removeClass('red');
+                }
+            });
+        });
+    </script>
+    <!-- cover -->
+    <section class="cover">
+        <div class="fondo">
+
+            <div class="cover-par">
+                <h1>LIVING THE HEALTHY LIFE!</h1>
+                <p>Walking through the path of wellness</p>
+                <div class="find-out">
+                    <a href="#">Find Out More </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="fondo"> -->
+        <!-- <img src="opcion5.jpg" alt=""> -->
+        <!-- </div> -->
+
+
+    </section>
+    <!-- sobre nosotros -->
+
+    <section class="about-us">
+
+
+        <div class="about-us-title left-line"></div>
+        <h1 class="about-us-title">Our Nutrition Clinic</h1>
+        <div class="about-us-title right-line"></div>
+
+
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sequi eveniet harum odio facere. Nostrum nulla ea voluptatum quibusdam, perspiciatis, dolores unde dignissimos deleniti est iure fugit beatae, debitis repellendus! Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Expedita, perspiciatis nihil eligendi illo quidem laboriosam repellendus a totam labore! Corrupti sapiente doloribus corporis minima asperiores est, sint neque voluptatibus quibusdam.
+        </article>
+    </section>
+    <section class="services">
+        <div class="about-us-title left-line"></div>
+        <h1>What we Do</h1>
+        <div class="about-us-title right-line"></div>
+        <div class="main-services">
+
+            <div class="service service1">
+
+                <div class="service-image">
+                    <img src="servicio1.jpg" alt="">
+                </div>
+
+                <div class="service-par">
+                    <h2>Flavors of Health</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur neque aliquid id, veniam illum quasi et officia consectetur dolores rerum fugiat voluptate eveniet, excepturi asperiores consequatur autem recusandae eos!
+                    </p>
+                </div>
+
+            </div>
+            <div class="service service2">
+
+                <div class="service-par">
+                    <h2>Customized Training</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur neque aliquid id, veniam illum quasi et officia consectetur dolores rerum fugiat voluptate eveniet, excepturi asperiores consequatur autem recusandae eos!</p>
+                </div>
+                <div class="service-image">
+                    <img src="service2.jpg" alt="">
+                </div>
+ 
+            </div>
+           <div class="service service3">
+                <div class="service-image">
+                    <img src="servicio3.jpg" alt="">
+                </div>
+
+                <div class="service-par">
+                    <h2>Your Health App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequuntur dolorem at accusamus impedit, commodi perspiciatis blanditiis temporibus quae reprehenderit nam distinctio, ullam velit nemo ad odio, magnam corporis pariatur.</p>
+                </div>
+            </div>
+             
+            <div class="service service4">
+                <div class="service-par">
+                    <h2>Nutri 1-on-1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, assumenda doloribus repellendus quam beatae nihil ducimus esse voluptates vero tempore voluptatem sunt officiis quibusdam id voluptatibus temporibus distinctio soluta
+                        veritatis.
+                    </p>
+                </div>
+                <div class="service-image">
+                    <img src="servicio4.jpg" alt="">
+                </div>
+            </div>
+         </section> 
+
+ <section class="pricing">
+        <div class="pricing-info">
+            <h2 class="pricing-heading">- Prices -</h2>
+            <h4 class="pricing-intro">Choose the plan that fits your goal</h4>
+        </div>
+        <div class="pricing-plans">
+            <div class="plan premium">
+                <h3 class="plan-heading">Premium</h3>
+                <div>
+                    <span class="plan-cost">500$</span>
+                    <span>/month</span>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i>Weight evaluation</li>
+                    <li><i class="fas fa-check"></i>Customized diet</li>
+                    <li><i class="fas fa-check"></i>Training actitivies</li>
+                    <li><i class="fas fa-check"></i>Psychological assesment</li>
+                    <li><i class="fas fa-check"></i>Coaching</li>
+                </ul>
+                <a href="#" class="buy-btn">Buy now</a>
+            </div>
+            <div class="plan basic">
+                <h3 class="plan-heading">Basic</h3>
+                <div>
+                    <span class="plan-cost">300$</span>
+                    <span>/month</span>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i>Weight evaluation</li>
+                    <li><i class="fas fa-check"></i>Customized diet</li>
+                    <li><i class="fas fa-check"></i>Training activities</li>
+                    <li><i class="fas fa-check"></i>Psychological assesment</li>
+                    <li><i class="fas fa-check"></i>Coaching</li>
+                </ul>
+                <a href="#" class="buy-btn">Buy now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Galería -->
+    <section class="gallery">
+        <div class="gallery-column">
+            <img src="img/image1.jpg" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-column">
+            <img src="img/image2.jpg" alt="" class="gallery-img">
+            <img src="img/image3.jpg" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-column">
+            <img src="img/image4.jpg" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-column">
+            <img src="img/image5.jpg" alt="" class="gallery-img">
+            <img src="img/image6.jpg" alt="" class="gallery-img">
+        </div>
+    </section>
+    <!-- Contáctanos -->
+    <section class="contacts">
+        <h2 class="contacts-heading">- Contact us -</h2>
+        <h4 class="contacts-intro">Get in touch with us for any question</h4>
+        <div class="contacts-form">
+            <div class="form-map"></div>
+            <div class="form-inputs">
+                <input type="text" placeholder="Name *">
+                <input type="text" placeholder="Email *">
+                <input type="text" placeholder="Phone number">
+                <textarea cols="30" rows="10" placeholder="Message *"></textarea>
+                <a href="#" class="send-btn">Send</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-area">
+            <div class="footer-column">
+                <img class=footer-logo src="logof2.png" alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste repellendus dolores exercitationem repudiandae doloribus aliquid hic adipisci. Nesciunt, id.</p>
+                <div class="social-media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Information</h4>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-phone"></i></span>1-800-1234-567</li>
+                    <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>4801 South University Drive, Suite 237, Ft. Lauderdale</li>
+                    <li><span class="fa-li"><i class="fas fa-envelope"></i></span>contacts@outlook.com</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Get the latest tips on wellness</h4>
+                <input type="text" placeholder="Your email...">
+                <a href="#" class="subscribe-btn">Suscribe</a>
+            </div>
+        </div>
+        <div class="footer-copyright">Copyright <i class="far fa-copyright"></i> 2020. All rights reserved.</div>
+    </footer>
+
+    
+   
+</body>
+
+</html>
